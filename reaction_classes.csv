@@ -1,0 +1,12 @@
+class_id,reaction_class,trained_on_scaffolds
+1,Desulfation (aryl sulfate ester hydrolysis),Zosteric acid (phenolic-acid sulfate); apigenin 7-sulfate (flavone sulfate)
+2,Ester hydrolysis,Caftaric acid (caffeoyl tartrate); rosmarinic acid (depside)
+3,Deglycosylation (aryl O-beta-glucoside),Luteolin 7-O-glucoside (flavone); arbutin (hydroquinone glucoside)
+4,O-demethylation,"Ferulic acid, vanillic acid (guaiacyl); syringic acid (syringyl, 2x); diosmetin"
+5,Aromatic hydroxylation,trans-Cinnamic -> p-coumaric; p-coumaric -> caffeic; 4-hydroxybenzoic -> protocatechuic
+6,Side-chain cleavage (C6-C3 -> C6-C1),"p-Coumaric, caffeic, ferulic acid"
+7,Aldehyde oxidation,Vanillin; 4-hydroxybenzaldehyde
+8,Decarboxylation,4-Hydroxybenzoic acid; protocatechuic acid
+9,Detoxifying O-methylation,Caffeic -> ferulic; protocatechuic -> vanillic
+10,Side-chain reduction (activated vinyl -> dihydro),"trans-Cinnamic, p-coumaric, caffeic, ferulic acid"
+11,Aromatic ring cleavage,Protocatechuic acid; luteolin (catechol B-ring). Negative controls: gentisic acid; apigenin

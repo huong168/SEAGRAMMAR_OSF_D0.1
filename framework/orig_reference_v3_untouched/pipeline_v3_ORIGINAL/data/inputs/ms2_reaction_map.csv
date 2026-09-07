@@ -1,0 +1,14 @@
+reaction,delta_mz_monoisotopic,formula_change,type,ppm_tol,note
+methylation,14.015650,+CH2,shift,10,O-methyl hoặc C-methyl (+CH2)
+O_demethylation,-14.015650,-CH2,shift,10,OCH3 -> OH
+aromatic_hydroxylation,15.994915,+O,shift,10,thêm nhóm OH thơm
+aldehyde_oxidation,15.994915,+O,shift,10,CHO -> COOH (cùng +O; phân biệt bằng RT/MS2)
+reduction,2.015650,+H2,shift,10,khử nối đôi cinnamoyl
+decarboxylation,-43.989830,-CO2,shift,10,mất nhóm carboxyl
+desulfation,-79.956820,-SO3,shift,8,mất sulfate ester (novel hệ biển)
+deglycosylation,-162.052824,-C6H10O5,shift,8,mất hexose (glucose/galactose)
+deglycosylation,-146.057909,-C6H10O4,shift,8,mất deoxyhexose (rhamnose)
+deglycosylation,-132.042259,-C5H8O4,shift,8,mất pentose (arabinose/xylose)
+ester_hydrolysis,18.010565,+H2O,split,10,depside/ester -> 2 acid; CẦN dò khối từng mảnh con (xem expected_fragments)
+side_chain_cleavage,-42.010565,-C2H2O,shift,15,cinnamate -> benzaldehyde (Δm gần đúng; xác nhận bằng MS2)
+ring_cleavage,NA,variable,needs_ms2,NA,mở vòng thơm: Δm KHÔNG xác định -> KHÔNG auto-label, luôn vào review

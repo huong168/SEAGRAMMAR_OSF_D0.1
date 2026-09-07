@@ -1,0 +1,12 @@
+label,support,n_compounds,f1_group,pr_auc_group,roc_auc_group,precision_group,recall_group
+O_demethylation,470,10,0.671,0.68,0.959,0.505,1.0
+aldehyde_oxidation,278,4,0.681,0.683,0.984,0.633,0.737
+aromatic_hydroxylation,1369,33,0.556,0.414,0.689,0.397,0.925
+decarboxylation,85,5,0.268,0.282,0.95,0.157,0.906
+deglycosylation,94,3,0.441,0.449,0.982,0.328,0.67
+desulfation,114,4,0.494,0.388,0.979,0.368,0.754
+ester_hydrolysis,280,4,0.749,0.659,0.981,0.598,1.0
+methylation,72,13,0.169,0.094,0.923,0.092,1.0
+reduction,38,12,0.089,0.053,0.828,0.049,0.447
+ring_cleavage,387,17,0.425,0.423,0.913,0.274,0.943
+side_chain_cleavage,445,12,0.502,0.329,0.899,0.364,0.809

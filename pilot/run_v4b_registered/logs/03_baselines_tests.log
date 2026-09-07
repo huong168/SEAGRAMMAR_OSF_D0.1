@@ -1,0 +1,65 @@
+[pilot-patch] dropped absent features: ['pyrogallol']
+[engine] model=RF | fingerprint=16-substructure-bits
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+[pilot-patch] dropped absent features: ['pyrogallol']
+
+=== BASELINES (multi-label Brier, lower=better) ===
+  rule_model_calibrated              0.067
+  tanimoto_knn                       0.0696
+  frequency                          0.0766
+  public_only_on_marine              0.0987
+  rule_model_on_marine               0.0669
+  marine_data_advantage(public-rule) 0.0318
+
+=== TEST A — compositionality (JSD) ===
+  {'substrate': 'C04', 'chain': 'O_demethylation -> ring_cleavage', 'pred_dist': [np.float64(0.732), np.float64(0.268), np.float64(0.0)], 'obs_dist': [np.float64(0.635), np.float64(0.365), np.float64(0.0)], 'JSD': 0.0079, 'pass_threshold(<0.05)': True, 'note': 'machinery demo on simulated labels; real endpoints come from LC-MS cascades.'}
+
+=== TEST B — reusability (matched pairs) ===
+   {'rule': 'desulfation', 'A': 'C19', 'B': 'C20', 'wJaccard': 0.0, 'cosine': 0.0, 'sharedP_A': 0.0, 'sharedP_B': 0.0, 'transfers(both>0.5)': False}
+   {'rule': 'O_demethylation', 'A': 'C10', 'B': 'C11', 'wJaccard': 0.834, 'cosine': 0.984, 'sharedP_A': 0.376, 'sharedP_B': 0.478, 'transfers(both>0.5)': False}
+   {'rule': 'ester_hydrolysis', 'A': 'C05', 'B': 'C06', 'wJaccard': 0.891, 'cosine': 0.985, 'sharedP_A': 0.902, 'sharedP_B': 0.901, 'transfers(both>0.5)': True}
+   {'rule': 'aldehyde_oxidation', 'A': 'C13', 'B': 'C14', 'wJaccard': 0.563, 'cosine': 0.794, 'sharedP_A': 0.492, 'sharedP_B': 0.383, 'transfers(both>0.5)': False}
+   {'rule': 'ring_cleavage', 'A': 'C15', 'B': 'C16', 'wJaccard': 0.568, 'cosine': 0.885, 'sharedP_A': 0.255, 'sharedP_B': 0.059, 'transfers(both>0.5)': False}
+
+=== TEST C1 — productivity (leave-COMPOUND-out, sealed-6 proxy) ===
+  {'split': 'leave-compound-out (sealed-6 proxy)', 'brier_rule': 0.067, 'brier_tanimoto_baseline': 0.0696, 'delta(base-rule)': 0.0026, 'CI95': [0.0012, 0.0039], 'P(rule better)': 1.0, 'rule_wins': True, 'note': 'novel compound reusing trained rules — the actual Property C design.'}
+
+=== TEST C2 — productivity (leave-FAMILY-out, hardest stress) ===
+  {'split': 'leave-family-out (class_id) — hardest stress', 'brier_rule': 0.0746, 'brier_tanimoto_baseline': 0.0768, 'delta(base-rule)': 0.0022, 'CI95': [0.0009, 0.0037], 'P(rule better)': 1.0, 'rule_wins': True, 'note': 'whole scaffold family removed; harder than the sealed-6 design.'}
+
+Outputs -> /root/osf/run_C/scripts/visualizations/ml_upgrade

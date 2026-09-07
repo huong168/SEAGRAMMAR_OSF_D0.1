@@ -1,0 +1,27 @@
+[pilot-patch] dropped absent features: ['pyrogallol']
+[engine] model=RandomForest  | rows=4662  compounds=37  families=10
+[framing] labels are SIMULATED (noisy-OR) -> every number below is a POSITIVE CONTROL (rule-recovery), NOT a biological result.
+
+label                   prev           PR_LCO           PR_LFO lift_LFO    gap
+O_demethylation        0.10 0.60 [0.437, 0.722] 0.48 [0.414, 0.559]      4.7   0.13
+aldehyde_oxidation     0.06 0.54 [0.154, 0.719] 0.04 [0.01, 0.094]      0.7   0.50
+aromatic_hydroxylation 0.29 0.41 [0.389, 0.432] 0.39 [0.374, 0.415]      1.3   0.02
+decarboxylation        0.02 0.22 [0.214, 0.379] 0.01 [0.004, 0.025]      0.6   0.21
+deglycosylation        0.02 0.47 [0.454, 0.779] 0.60 [0.474, 0.775]     29.7  -0.13
+desulfation            0.02 0.03 [0.004, 0.042] 0.38 [0.244, 0.461]     15.3  -0.35
+ester_hydrolysis       0.06 0.67 [0.58, 0.72] 0.05 [0.014, 0.113]      0.9   0.61
+methylation            0.02 0.10 [0.078, 0.107] 0.08 [0.04, 0.091]      5.1   0.02
+reduction              0.01 0.05 [0.041, 0.081] 0.06 [0.042, 0.078]      6.9  -0.00
+ring_cleavage          0.08 0.35 [0.291, 0.425] 0.31 [0.251, 0.394]      3.8   0.04
+side_chain_cleavage    0.10 0.35 [0.328, 0.374] 0.30 [0.234, 0.338]      3.1   0.05
+
+MACRO: {
+"macro_pr_auc_lco": 0.345,
+"macro_pr_auc_lfo": 0.245,
+"macro_lift_lco": 7.734,
+"macro_lift_lfo": 6.568,
+"macro_roc_auc_lco": 0.843,
+"macro_roc_auc_lfo": 0.681,
+"macro_pr_auc_gap_lco_minus_lfo": 0.1
+}
+Outputs -> /root/osf/run_B/scripts/visualizations/ml_upgrade (honest_eval_per_label.csv, honest_eval_summary.json, fig_honest_eval.png)

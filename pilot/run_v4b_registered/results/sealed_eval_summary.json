@@ -1,0 +1,20 @@
+{
+  "brier": {
+    "rule_model": 0.0762,
+    "tanimoto_knn": 0.081,
+    "frequency": 0.0842,
+    "delta_tanimoto_minus_rule": 0.0046,
+    "CI95": [
+      -0.0231,
+      0.0361
+    ],
+    "P(rule better)": 0.602,
+    "rule_wins": false,
+    "DMSP_abstention": {
+      "mean_p_any_reaction": 0.1404,
+      "mean_p_none": 0.7004,
+      "true_none_rate": 1.0
+    }
+  },
+  "note": "SIMULATED labels (noisy-OR). Engineering/rule-recovery result, not biology."
+}

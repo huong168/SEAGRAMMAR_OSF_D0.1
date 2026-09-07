@@ -1,0 +1,9 @@
+{
+  "engine": "RandomForest",
+  "n_labels_evaluated": 12,
+  "macro_brier_raw": 0.082,
+  "macro_brier_calibrated": 0.066,
+  "macro_improvement": 0.016,
+  "no_reaction_brier_calibrated": 0.2072,
+  "note": "leave-compound-out, group-safe; mock/simulated labels (engineering feasibility)."
+}

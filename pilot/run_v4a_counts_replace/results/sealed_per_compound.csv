@@ -1,0 +1,7 @@
+compound_id,compound_name,n_rows,brier_rule,brier_tanimoto,nearest_training
+H01,Luteolin 7-sulfate,126,0.0844,0.0768,Apigenin 7-sulfate (0.8) ; Luteolin (0.8) ; Luteolin 7-O-glucoside (0.667) ; Apigenin (0.6) ; Diosmetin (0.429)
+H02,rac-Hesperetin 7-O-sulfate,126,0.063,0.067,Diosmetin (0.5) ; Vanillin (0.5) ; Vanillic acid (0.429) ; Ferulic acid (0.429) ; Syringic acid (0.375)
+H03,Sinapic acid,126,0.079,0.0846,Ferulic acid (0.857) ; Syringic acid (0.75) ; Vanillic acid (0.625) ; p-Coumaric acid (0.571) ; Diosmetin (0.5)
+H04,Dehydrodivanillin (divanillin),126,0.0684,0.0849,Vanillin (1.0) ; Diosmetin (0.667) ; 4-Hydroxybenzaldehyde (0.6) ; Vanillic acid (0.571) ; Ferulic acid (0.571)
+H05,Chicoric acid,126,0.141,0.0895,Rosmarinic acid (1.0) ; Caftaric acid (1.0) ; Caffeic acid (0.833) ; p-Coumaric acid (0.667) ; Protocatechuic acid (0.571)
+H06,DMSP (dimethylsulfoniopropionate),126,0.0183,0.0833,Apigenin 7-sulfate (0.0) ; Zosteric acid (0.0) ; Luteolin 7-O-glucoside (0.0) ; Diosmetin (0.0) ; Apigenin (0.0)

@@ -1,0 +1,27 @@
+n,compound_id,compound_name,cas,panel_role,reaction_classes_trained,scaffold,note
+1,C01,trans-Cinnamic acid,140-10-3,training,"5;10",cinnamic,Control scaffold (no ring OH)
+2,C02,p-Coumaric acid,7400-08-0,training,"5;6;10",cinnamic,Z. marina (zosteric acid aglycone)
+3,C03,Caffeic acid,331-39-5,training,"6;9;10",cinnamic,Z. marina
+4,C04,Ferulic acid,1135-24-6,training,"4;6;10",cinnamic,Plant phenylpropanoid
+5,C05,trans-Caftaric acid,67879-58-7,training,"2",depside_ester,Seagrass caffeoyl tartrate
+6,C06,Rosmarinic acid,20283-92-5,training,"2",depside_ester,Z. marina
+7,C07,4-Hydroxybenzoic acid,99-96-7,training,"5;8",benzoic,Cascade intermediate
+8,C08,Protocatechuic acid,99-50-3,training,"8;9;11",benzoic,Central-metabolism hub
+9,C09,Gentisic acid,490-79-9,training,"11 (negative)",benzoic,"Regiochemistry control (2,5-diOH)"
+10,C10,Vanillic acid,121-34-6,training,"4",benzoic,Cascade intermediate
+11,C11,Syringic acid,530-57-4,training,"4",benzoic,Syringyl unit (2x demethylation)
+12,C12,Arbutin (hydroquinone beta-D-glucoside),497-76-7,training,"3;11 (alternative route)",aryl_glucoside,Analogue - second glycoside scaffold
+13,C13,Vanillin,121-33-5,training,"7",benzaldehyde,Cascade intermediate
+14,C14,4-Hydroxybenzaldehyde,123-08-0,training,"7",benzaldehyde,Aldehyde pair partner
+15,C15,Luteolin,491-70-3,training,"11",flavone,Z. marina
+16,C16,Apigenin,520-36-5,training,"11 (negative)",flavone,Z. marina (specificity anchor)
+17,C17,Diosmetin,520-34-3,training,"4",flavone,Z. marina
+18,C18,Luteolin 7-O-glucoside,5373-11-5,training,"3",flavone_glycoside,Flavone glycoside
+19,C19,Zosteric acid (p-coumaric acid 4-O-sulfate),308338-96-7,training,"1",cinnamic_sulfate,Z. marina - flagship substrate
+20,C20,Apigenin 7-sulfate,56857-56-8,training,"1",flavone_sulfate,Z. marina sulfated flavone
+21,H01,Luteolin 7-sulfate,56857-57-9,sealed,"1;11",flavone_sulfate,"Desulfation transferred to a third sulfate scaffold, then catechol ring cleavage"
+22,H02,rac-Hesperetin 7-O-sulfate,675139-61-4,sealed,"1;4",flavanone_sulfate,"Two separately trained rules must chain on one untrained molecule: desulfation + O-demethylation, on a flavanone outside the trained flavone core"
+23,H03,Sinapic acid,530-59-6,sealed,"4",cinnamic,"Generalisation of O-demethylation by methoxy count (syringyl, 2x) on a cinnamate rather than a benzoate scaffold"
+24,H04,Dehydrodivanillin (divanillin),2092-49-1,sealed,"7",benzaldehyde_dimer,"Monomer-to-dimer extension: does aldehyde oxidation, trained on vanillin, fire on both halves of the 5,5'-biaryl dimer of that same monomer"
+25,H05,Chicoric acid,70831-56-0,sealed,"2",depside_ester,Two sequential ester hydrolyses on one substrate predicted from a panel trained on single esters
+26,H06,DMSP (dimethylsulfoniopropionate),4337-33-1,sealed,"none (abstention control)",sulfonium,Carries no trained substructure. The correct prediction is that no rule fires

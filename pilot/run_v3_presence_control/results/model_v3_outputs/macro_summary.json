@@ -1,0 +1,6 @@
+{
+  "macro_f1_group": 0.438,
+  "macro_pr_auc_group": 0.403,
+  "macro_roc_auc_group": 0.916,
+  "n_labels_evaluated": 11
+}

@@ -1,0 +1,13 @@
+compound_id                   compound  n_strains  true_positive_rate  mean_p_rule  mean_p_tanimoto  ROC_AUC_rule  ROC_AUC_tanimoto  PR_AUC_rule
+        H01         Luteolin 7-sulfate        126               0.238        0.320            0.058         0.743               0.5        0.370
+        H02 rac-Hesperetin 7-O-sulfate        126               0.206        0.324            0.000         0.767               0.5        0.385
+
+    Reaction class  n positive rows  PR-AUC  Lift over prevalence  ROC-AUC  Mean p (true +)  Mean p (true −)
+   O_demethylation              145   0.634                  3.31    0.919            0.778            0.166
+aldehyde_oxidation               69   0.649                  7.11    0.973            0.555            0.087
+       desulfation               56   0.371                  5.00    0.927            0.499            0.079
+  ester_hydrolysis               70   0.662                  7.14    0.970            0.940            0.070
+     ring_cleavage               48   0.316                  4.98    0.926            0.731            0.194
+              none              329   0.819                  1.88    0.831            0.603            0.309
+
+figure -> /root/osf/run_B/figures/FIG_proposal_pilot_20plus6.png

@@ -1,0 +1,6 @@
+sample_id,compound_id,strain_id,replicate,timepoint,condition,polarity
+s1,C04,S08,1,T0,live,neg
+s2,C04,S08,1,Tn,live,neg
+s3,C04,S08,1,Tn,control,neg
+s4,C12,S15,1,Tn,live,neg
+s5,C12,S15,1,Tn,control,neg

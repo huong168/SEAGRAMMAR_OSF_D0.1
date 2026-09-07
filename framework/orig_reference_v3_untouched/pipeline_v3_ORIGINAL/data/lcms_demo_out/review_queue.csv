@@ -1,0 +1,5 @@
+compound_id,strain_id,reaction,evidence,detail,confidence_level,action
+C04,S08,ring_cleavage,needs_ms2 + depletion,Δm không xác định cho mở vòng,4,xác nhận bằng MS2/chuẩn đối chiếu
+C12,S15,unknown_transformation,substrate_depletion,sub Tn=100000 vs control=1000000,4,annotate sản phẩm (SIRIUS/CFM-ID) hoặc xác nhận ring_cleavage
+C12,S15,unmatched_product,new_peak mz=191.0193 rt=2.40,không khớp Δm nào,5,có thể là cleavage/unknown -> annotate MS2
+C12,S15,ring_cleavage,needs_ms2 + depletion,Δm không xác định cho mở vòng,4,xác nhận bằng MS2/chuẩn đối chiếu

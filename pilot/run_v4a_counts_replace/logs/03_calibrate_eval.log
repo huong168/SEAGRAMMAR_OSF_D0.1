@@ -1,0 +1,17 @@
+[pilot-patch] dropped absent features: ['pyrogallol']
+[engine] classifier = sklearn RandomForest
+  O_demethylation          n= 470  Brier raw=0.0665 -> cal=0.0580  (Δ=+0.0085)
+  aldehyde_oxidation       n= 278  Brier raw=0.0362 -> cal=0.0362  (Δ=+0.0000)
+  aromatic_hydroxylation   n=1369  Brier raw=0.2132 -> cal=0.1811  (Δ=+0.0321)
+  decarboxylation          n=  85  Brier raw=0.0507 -> cal=0.0483  (Δ=+0.0024)
+  deglycosylation          n=  94  Brier raw=0.0191 -> cal=0.0191  (Δ=+0.0000)
+  desulfation              n= 114  Brier raw=0.0016 -> cal=0.0016  (Δ=+0.0000)
+  ester_hydrolysis         n= 280  Brier raw=0.0448 -> cal=0.0406  (Δ=+0.0041)
+  methylation              n=  72  Brier raw=0.0910 -> cal=0.0144  (Δ=+0.0766)
+  reduction                n=  38  Brier raw=0.0383 -> cal=0.0261  (Δ=+0.0122)
+  ring_cleavage            n= 387  Brier raw=0.1121 -> cal=0.0699  (Δ=+0.0422)
+  side_chain_cleavage      n= 445  Brier raw=0.1037 -> cal=0.0891  (Δ=+0.0146)
+  none                     n=2091  Brier raw=0.2071 -> cal=0.2072  (Δ=-0.0001)  <-- NO-REACTION (first-class)
+
+MACRO: {'engine': 'RandomForest', 'n_labels_evaluated': 12, 'macro_brier_raw': 0.082, 'macro_brier_calibrated': 0.066, 'macro_improvement': 0.016, 'no_reaction_brier_calibrated': 0.2072, 'note': 'leave-compound-out, group-safe; mock/simulated labels (engineering feasibility).'}
+Outputs -> /root/osf/run_B/scripts/visualizations/ml_upgrade

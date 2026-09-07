@@ -1,0 +1,73 @@
+{
+  "name": "SEAGRASSGRAMMAR ML dataset v3 (CSV-driven)",
+  "n_rows": 4032,
+  "n_compounds": 32,
+  "n_strains": 42,
+  "n_reactions": 11,
+  "n_replicates": 3,
+  "features_used": [
+    "phenol",
+    "catechol",
+    "pyrogallol",
+    "gentisate_25_diol",
+    "guaiacyl",
+    "syringyl",
+    "aromatic_methoxy",
+    "monophenol_para",
+    "carboxylic_acid",
+    "benzoic_acid",
+    "aromatic_aldehyde",
+    "vinyl_aromatic",
+    "ester_bond",
+    "aryl_O_glycoside",
+    "aryl_sulfate_ester",
+    "flavone_core"
+  ],
+  "features_dropped_constant": [],
+  "features_dropped_redundant_by_design": [
+    "reducible_double_bond"
+  ],
+  "labels": [
+    "O_demethylation",
+    "aldehyde_oxidation",
+    "aromatic_hydroxylation",
+    "decarboxylation",
+    "deglycosylation",
+    "desulfation",
+    "ester_hydrolysis",
+    "methylation",
+    "reduction",
+    "ring_cleavage",
+    "side_chain_cleavage",
+    "none"
+  ],
+  "n_experimental_rows_overridden": 0,
+  "inputs": "data/inputs/{compounds,strains,reaction_rules,observations}.csv",
+  "splitting": "GroupKFold theo cv_group (=compound_id).",
+  "weighting": "weight (per-row, =max) + w_<label> (per-label): primary=1.0, expansion=0.7, experimental=>=5.0.",
+  "per_label_weight_cols": [
+    "w_O_demethylation",
+    "w_aldehyde_oxidation",
+    "w_aromatic_hydroxylation",
+    "w_decarboxylation",
+    "w_deglycosylation",
+    "w_desulfation",
+    "w_ester_hydrolysis",
+    "w_methylation",
+    "w_reduction",
+    "w_ring_cleavage",
+    "w_side_chain_cleavage",
+    "w_none"
+  ],
+  "NOT_features": [
+    "source",
+    "evidence",
+    "strain_id",
+    "compound_id",
+    "cv_group",
+    "provenance",
+    "smiles",
+    "weight",
+    "replicate_id"
+  ]
+}

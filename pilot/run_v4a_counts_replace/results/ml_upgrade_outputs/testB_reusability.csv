@@ -1,0 +1,6 @@
+rule,A,B,wJaccard,cosine,sharedP_A,sharedP_B,transfers(both>0.5)
+desulfation,C19,C20,0.042,0.09,0.0,0.0,False
+O_demethylation,C10,C11,0.641,0.878,0.157,0.437,False
+ester_hydrolysis,C05,C06,0.889,0.991,0.901,0.867,True
+aldehyde_oxidation,C13,C14,0.549,0.673,0.219,0.219,False
+ring_cleavage,C15,C16,0.525,0.887,0.205,0.041,False

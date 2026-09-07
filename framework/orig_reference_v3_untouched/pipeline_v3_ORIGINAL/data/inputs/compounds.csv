@@ -1,0 +1,33 @@
+compound_id,compound_name,pillar,class_id,scaffold,smiles,provenance,origin
+C01,trans-Cinnamic acid,Cinnamic,0,cinnamic,O=C(O)/C=C/c1ccccc1,PubChem:444539,seagrass_marine
+C02,p-Coumaric acid,Hydroxycinnamic,0,cinnamic,O=C(O)/C=C/c1ccc(O)cc1,PubChem:637542,seagrass_marine
+C03,Caffeic acid,Hydroxycinnamic,0,cinnamic,O=C(O)/C=C/c1ccc(O)c(O)c1,ChEMBL:CHEMBL145,seagrass_marine
+C04,Ferulic acid,Hydroxycinnamic,0,cinnamic,COc1cc(/C=C/C(=O)O)ccc1O,ChEMBL:CHEMBL32749,seagrass_marine
+C05,Caftaric acid,Hydroxycinnamic tartrate ester,1,depside_ester,O=C(O)C(O)C(OC(=O)/C=C/c1ccc(O)c(O)c1)C(=O)O,PubChem:6440397,seagrass_marine
+C06,Rosmarinic acid,Depside (seagrass anchor),1,depside_ester,O=C(O)C(Cc1ccc(O)c(O)c1)OC(=O)/C=C/c1ccc(O)c(O)c1,PubChem:5281792,seagrass_marine
+C07,p-Hydroxybenzoic acid,Aromatic acid,2,benzoic,O=C(O)c1ccc(O)cc1,PubChem:135,seagrass_marine
+C08,Protocatechuic acid,Aromatic acid,2,benzoic,O=C(O)c1ccc(O)c(O)c1,PubChem:72,seagrass_marine
+C09,Gentisic acid,"Aromatic acid (2,5-diOH)",2,benzoic,O=C(O)c1cc(O)ccc1O,PubChem:3469,seagrass_marine
+C10,Vanillic acid,Aromatic acid,2,benzoic,COc1cc(C(=O)O)ccc1O,PubChem:8468,seagrass_marine
+C11,Syringic acid,Aromatic acid,2,benzoic,COc1cc(C(=O)O)cc(OC)c1O,PubChem:10742,seagrass_marine
+C12,Gallic acid,Aromatic acid,2,benzoic,O=C(O)c1cc(O)c(O)c(O)c1,PubChem:370,seagrass_marine
+C13,Vanillin,Aromatic aldehyde,3,benzaldehyde,COc1cc(C=O)ccc1O,ChEMBL:CHEMBL13883,seagrass_marine
+C14,4-Hydroxybenzaldehyde,Aromatic aldehyde,3,benzaldehyde,O=Cc1ccc(O)cc1,PubChem:126,seagrass_marine
+C15,Luteolin,Flavone (Zostera),4,flavone,O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,ChEMBL:CHEMBL151,seagrass_marine
+C16,Apigenin,Flavone (Zostera),4,flavone,O=c1cc(-c2ccc(O)cc2)oc2cc(O)cc(O)c12,PubChem:5280443,seagrass_marine
+C17,Diosmetin,Flavone (Zostera),4,flavone,COc1ccc(-c2cc(=O)c3c(O)cc(O)cc3o2)cc1O,PubChem:5281612,seagrass_marine
+C18,Luteolin 7-O-glucoside,Flavone glycoside,4,flavone_glycoside,O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)cc(O)c12,PubChem:5280637,seagrass_marine
+C19,Zosteric acid,Sulfated phenolic (Zostera),5,cinnamic_sulfate,O=C(O)/C=C/c1ccc(OS(=O)(=O)O)cc1,PubChem:5280343,seagrass_marine
+C20,Apigenin 7-sulfate,Sulfated flavone (Zostera),5,flavone_sulfate,O=c1cc(-c2ccc(O)cc2)oc2cc(OS(=O)(=O)O)cc(O)c12,PubChem:44257957,seagrass_marine
+T01,Sinapic acid,Hydroxycinnamic,0,cinnamic,COc1cc(/C=C/C(=O)O)cc(OC)c1O,PubChem:637775,terrestrial_plant
+T02,Chlorogenic acid,Caffeoylquinic ester,1,depside_ester,O=C(/C=C/c1ccc(O)c(O)c1)O[C@@H]1C[C@](O)(C(=O)O)C[C@@H](O)[C@H]1O,ChEMBL:CHEMBL284616,terrestrial_plant
+T03,Coniferyl alcohol,Monolignol,0,cinnamic,COc1cc(/C=C/CO)ccc1O,PubChem:1549095,terrestrial_plant
+T04,Quercetin,Flavonol,4,flavone,O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,PubChem:5280343,terrestrial_plant
+T05,Kaempferol,Flavonol,4,flavone,O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12,PubChem:5280863,terrestrial_plant
+T06,Naringenin,Flavanone,4,flavanone,O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21,PubChem:932,terrestrial_plant
+T07,Catechin,Flavan-3-ol,4,flavanol,OC1Cc2c(O)cc(O)cc2O[C@@H]1c1ccc(O)c(O)c1,PubChem:9064,terrestrial_plant
+T08,Resveratrol,Stilbene,6,stilbene,Oc1ccc(/C=C/c2cc(O)cc(O)c2)cc1,PubChem:445154,terrestrial_plant
+T09,Quercetin 3-O-glucoside,Flavonol glycoside,4,flavone_glycoside,O=c1c(O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12,PubChem:5280804,terrestrial_plant
+T10,Hydroxytyrosol,Phenylethanoid,7,phenethyl,OCCc1ccc(O)c(O)c1,PubChem:82755,terrestrial_plant
+T11,Tyrosol,Phenylethanoid,7,phenethyl,OCCc1ccc(O)cc1,PubChem:10393,terrestrial_plant
+T12,Syringaldehyde,Aromatic aldehyde,3,benzaldehyde,COc1cc(C=O)cc(OC)c1O,PubChem:8655,terrestrial_plant

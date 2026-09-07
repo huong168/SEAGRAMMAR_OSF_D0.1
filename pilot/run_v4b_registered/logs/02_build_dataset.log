@@ -1,0 +1,5 @@
+>> /root/osf/run_C/scripts/data/ml_training_dataset_v3.csv
+   4662 dòng | 37 hợp chất × 42 chủng × 3 replicate
+   feature dùng: 30 (bỏ hằng số: ['pyrogallol', 'n_pyrogallol'])
+   nhãn: 12 | quan sát thực nghiệm áp dụng: 0 dòng
+   evidence breakdown: {'simulated': 4662}

@@ -1,0 +1,360 @@
+{
+  "summary": {
+    "framing": "POSITIVE CONTROL on simulated (noisy-OR) labels \u2014 measures rule recovery, not biology. Real predictive numbers require LC-MS labels (proposal \u00a71.1.7).",
+    "primary_metric": "PR-AUC (average precision) + lift over prevalence",
+    "secondary_metric": "ROC-AUC (threshold-free)",
+    "n_labels_evaluated": 11,
+    "n_labels_excluded_by_gate": 0,
+    "macro_pr_auc_lco": 0.345,
+    "macro_pr_auc_lfo": 0.245,
+    "macro_lift_lco": 7.734,
+    "macro_lift_lfo": 6.568,
+    "macro_roc_auc_lco": 0.843,
+    "macro_roc_auc_lfo": 0.681,
+    "macro_pr_auc_gap_lco_minus_lfo": 0.1,
+    "note_ci": "95% CI from 500 cluster-bootstrap resamples over compound groups; wide CIs reflect only 37 compounds (honest, motivates a larger panel)."
+  },
+  "per_label": [
+    {
+      "label": "O_demethylation",
+      "prevalence": 0.1008,
+      "n_pos": 470,
+      "n_compounds": 10,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.604,
+      "pr_auc_lco_ci": [
+        0.437,
+        0.722
+      ],
+      "lift_lco": 5.99,
+      "roc_auc_lco": 0.822,
+      "roc_auc_lco_ci": [
+        0.711,
+        0.924
+      ],
+      "pr_auc_lfo": 0.478,
+      "pr_auc_lfo_ci": [
+        0.414,
+        0.559
+      ],
+      "lift_lfo": 4.74,
+      "roc_auc_lfo": 0.91,
+      "roc_auc_lfo_ci": [
+        0.832,
+        0.973
+      ],
+      "pr_auc_gap_lco_minus_lfo": 0.126,
+      "roc_auc_gap_lco_minus_lfo": -0.088
+    },
+    {
+      "label": "aldehyde_oxidation",
+      "prevalence": 0.0596,
+      "n_pos": 278,
+      "n_compounds": 4,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.544,
+      "pr_auc_lco_ci": [
+        0.154,
+        0.719
+      ],
+      "lift_lco": 9.12,
+      "roc_auc_lco": 0.957,
+      "roc_auc_lco_ci": [
+        0.896,
+        0.996
+      ],
+      "pr_auc_lfo": 0.044,
+      "pr_auc_lfo_ci": [
+        0.01,
+        0.094
+      ],
+      "lift_lfo": 0.74,
+      "roc_auc_lfo": 0.378,
+      "roc_auc_lfo_ci": [
+        0.31,
+        0.438
+      ],
+      "pr_auc_gap_lco_minus_lfo": 0.5,
+      "roc_auc_gap_lco_minus_lfo": 0.579
+    },
+    {
+      "label": "aromatic_hydroxylation",
+      "prevalence": 0.2937,
+      "n_pos": 1369,
+      "n_compounds": 33,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.409,
+      "pr_auc_lco_ci": [
+        0.389,
+        0.432
+      ],
+      "lift_lco": 1.39,
+      "roc_auc_lco": 0.693,
+      "roc_auc_lco_ci": [
+        0.645,
+        0.747
+      ],
+      "pr_auc_lfo": 0.39,
+      "pr_auc_lfo_ci": [
+        0.374,
+        0.415
+      ],
+      "lift_lfo": 1.33,
+      "roc_auc_lfo": 0.679,
+      "roc_auc_lfo_ci": [
+        0.634,
+        0.727
+      ],
+      "pr_auc_gap_lco_minus_lfo": 0.019,
+      "roc_auc_gap_lco_minus_lfo": 0.014
+    },
+    {
+      "label": "decarboxylation",
+      "prevalence": 0.0182,
+      "n_pos": 85,
+      "n_compounds": 5,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.221,
+      "pr_auc_lco_ci": [
+        0.214,
+        0.379
+      ],
+      "lift_lco": 12.12,
+      "roc_auc_lco": 0.932,
+      "roc_auc_lco_ci": [
+        0.894,
+        0.985
+      ],
+      "pr_auc_lfo": 0.012,
+      "pr_auc_lfo_ci": [
+        0.004,
+        0.025
+      ],
+      "lift_lfo": 0.63,
+      "roc_auc_lfo": 0.325,
+      "roc_auc_lfo_ci": [
+        0.261,
+        0.391
+      ],
+      "pr_auc_gap_lco_minus_lfo": 0.209,
+      "roc_auc_gap_lco_minus_lfo": 0.607
+    },
+    {
+      "label": "deglycosylation",
+      "prevalence": 0.0202,
+      "n_pos": 94,
+      "n_compounds": 3,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.471,
+      "pr_auc_lco_ci": [
+        0.454,
+        0.779
+      ],
+      "lift_lco": 23.38,
+      "roc_auc_lco": 0.983,
+      "roc_auc_lco_ci": [
+        0.965,
+        0.998
+      ],
+      "pr_auc_lfo": 0.6,
+      "pr_auc_lfo_ci": [
+        0.474,
+        0.775
+      ],
+      "lift_lfo": 29.74,
+      "roc_auc_lfo": 0.986,
+      "roc_auc_lfo_ci": [
+        0.967,
+        0.998
+      ],
+      "pr_auc_gap_lco_minus_lfo": -0.129,
+      "roc_auc_gap_lco_minus_lfo": -0.003
+    },
+    {
+      "label": "desulfation",
+      "prevalence": 0.0245,
+      "n_pos": 114,
+      "n_compounds": 4,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.025,
+      "pr_auc_lco_ci": [
+        0.004,
+        0.042
+      ],
+      "lift_lco": 1.04,
+      "roc_auc_lco": 0.378,
+      "roc_auc_lco_ci": [
+        0.329,
+        0.427
+      ],
+      "pr_auc_lfo": 0.375,
+      "pr_auc_lfo_ci": [
+        0.244,
+        0.461
+      ],
+      "lift_lfo": 15.34,
+      "roc_auc_lfo": 0.973,
+      "roc_auc_lfo_ci": [
+        0.944,
+        0.995
+      ],
+      "pr_auc_gap_lco_minus_lfo": -0.35,
+      "roc_auc_gap_lco_minus_lfo": -0.595
+    },
+    {
+      "label": "ester_hydrolysis",
+      "prevalence": 0.0601,
+      "n_pos": 280,
+      "n_compounds": 4,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.668,
+      "pr_auc_lco_ci": [
+        0.58,
+        0.72
+      ],
+      "lift_lco": 11.12,
+      "roc_auc_lco": 0.981,
+      "roc_auc_lco_ci": [
+        0.955,
+        0.996
+      ],
+      "pr_auc_lfo": 0.053,
+      "pr_auc_lfo_ci": [
+        0.014,
+        0.113
+      ],
+      "lift_lfo": 0.88,
+      "roc_auc_lfo": 0.407,
+      "roc_auc_lfo_ci": [
+        0.342,
+        0.472
+      ],
+      "pr_auc_gap_lco_minus_lfo": 0.615,
+      "roc_auc_gap_lco_minus_lfo": 0.574
+    },
+    {
+      "label": "methylation",
+      "prevalence": 0.0154,
+      "n_pos": 72,
+      "n_compounds": 13,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.099,
+      "pr_auc_lco_ci": [
+        0.078,
+        0.107
+      ],
+      "lift_lco": 6.4,
+      "roc_auc_lco": 0.887,
+      "roc_auc_lco_ci": [
+        0.801,
+        0.952
+      ],
+      "pr_auc_lfo": 0.078,
+      "pr_auc_lfo_ci": [
+        0.04,
+        0.091
+      ],
+      "lift_lfo": 5.07,
+      "roc_auc_lfo": 0.728,
+      "roc_auc_lfo_ci": [
+        0.597,
+        0.856
+      ],
+      "pr_auc_gap_lco_minus_lfo": 0.021,
+      "roc_auc_gap_lco_minus_lfo": 0.159
+    },
+    {
+      "label": "reduction",
+      "prevalence": 0.0082,
+      "n_pos": 38,
+      "n_compounds": 12,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.054,
+      "pr_auc_lco_ci": [
+        0.041,
+        0.081
+      ],
+      "lift_lco": 6.64,
+      "roc_auc_lco": 0.883,
+      "roc_auc_lco_ci": [
+        0.812,
+        0.952
+      ],
+      "pr_auc_lfo": 0.056,
+      "pr_auc_lfo_ci": [
+        0.042,
+        0.078
+      ],
+      "lift_lfo": 6.92,
+      "roc_auc_lfo": 0.487,
+      "roc_auc_lfo_ci": [
+        0.392,
+        0.61
+      ],
+      "pr_auc_gap_lco_minus_lfo": -0.002,
+      "roc_auc_gap_lco_minus_lfo": 0.396
+    },
+    {
+      "label": "ring_cleavage",
+      "prevalence": 0.083,
+      "n_pos": 387,
+      "n_compounds": 17,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.349,
+      "pr_auc_lco_ci": [
+        0.291,
+        0.425
+      ],
+      "lift_lco": 4.2,
+      "roc_auc_lco": 0.872,
+      "roc_auc_lco_ci": [
+        0.813,
+        0.924
+      ],
+      "pr_auc_lfo": 0.312,
+      "pr_auc_lfo_ci": [
+        0.251,
+        0.394
+      ],
+      "lift_lfo": 3.75,
+      "roc_auc_lfo": 0.822,
+      "roc_auc_lfo_ci": [
+        0.754,
+        0.89
+      ],
+      "pr_auc_gap_lco_minus_lfo": 0.037,
+      "roc_auc_gap_lco_minus_lfo": 0.05
+    },
+    {
+      "label": "side_chain_cleavage",
+      "prevalence": 0.0955,
+      "n_pos": 445,
+      "n_compounds": 12,
+      "gate": "evaluated",
+      "pr_auc_lco": 0.351,
+      "pr_auc_lco_ci": [
+        0.328,
+        0.374
+      ],
+      "lift_lco": 3.67,
+      "roc_auc_lco": 0.89,
+      "roc_auc_lco_ci": [
+        0.837,
+        0.936
+      ],
+      "pr_auc_lfo": 0.297,
+      "pr_auc_lfo_ci": [
+        0.234,
+        0.338
+      ],
+      "lift_lfo": 3.11,
+      "roc_auc_lfo": 0.795,
+      "roc_auc_lfo_ci": [
+        0.717,
+        0.863
+      ],
+      "pr_auc_gap_lco_minus_lfo": 0.054,
+      "roc_auc_gap_lco_minus_lfo": 0.095
+    }
+  ]
+}

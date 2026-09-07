@@ -1,0 +1,7 @@
+Reaction class,n positive rows,PR-AUC,Lift over prevalence,ROC-AUC,Mean p (true +),Mean p (true −)
+O_demethylation,145,0.634,3.31,0.919,0.778,0.166
+aldehyde_oxidation,69,0.649,7.11,0.973,0.555,0.087
+desulfation,56,0.371,5.0,0.927,0.499,0.079
+ester_hydrolysis,70,0.662,7.14,0.97,0.94,0.07
+ring_cleavage,48,0.316,4.98,0.926,0.731,0.194
+none,329,0.819,1.88,0.831,0.603,0.309

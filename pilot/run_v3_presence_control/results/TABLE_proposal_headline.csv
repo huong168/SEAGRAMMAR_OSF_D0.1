@@ -1,0 +1,9 @@
+Result,Value,Scope
+"Rule recovery, leave-compound-out",macro PR-AUC 0.366; macro lift 8.7x over prevalence; ROC-AUC 0.851,training panel (20 cpd)
+"Rule recovery, leave-family-out",macro PR-AUC 0.229; macro lift 5.8x; ROC-AUC 0.705,training panel (20 cpd)
+Sealed-6 overall (multi-label Brier),rule 0.0795 vs similarity 0.081 vs frequency 0.0842,6 sealed cpd
+"Sealed-6, rule vs similarity","delta 0.0014, 95% CI [-0.0307, 0.0327], P(rule better) 0.556 -> NOT significant",6 sealed cpd
+Desulfation on 2 unseen sulfate scaffolds,rule ROC-AUC 0.764 (H01) / 0.767 (H02); similarity ROC-AUC 0.50 (constant per compound),"H01, H02"
+DMSP abstention (negative control),mean p(no reaction) 0.6927; mean max p(any reaction) 0.195; Brier 0.0175 (best of the six),H06
+Marine vs public-trained,Brier 0.0699 vs 0.1001; advantage 0.0302,all marine rows
+Reaction classes exercised by the sealed 6,9 of 11 (decarboxylation and deglycosylation have zero positives),design gap

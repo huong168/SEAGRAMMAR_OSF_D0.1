@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "SEAGRAMMAR — frozen framework, evaluation protocol, baselines and sealed benchmark"
+message: "If you use this registration or its code, please cite it."
+type: dataset
+authors:
+  - family-names: Pham
+    given-names: Huong
+    orcid: "https://orcid.org/0000-0002-6896-133X"
+date-released: 2026-09-07
+license: MIT
+abstract: >-
+  Registered deliverable D0.1 of the SEAGRAMMAR project: a frozen rule-learning
+  framework for predicting bacterial biotransformation of seagrass metabolites
+  from recurring substructures, together with its evaluation protocol, its three
+  baselines, and the identities of six sealed hold-out compounds. Registered
+  before any experimental data exist. All pilot metrics are rule recovery on
+  simulated labels, not measurements.
+keywords:
+  - metabolomics
+  - biotransformation
+  - Zostera marina
+  - pre-registration
+  - substructure rules
+# identifiers:
+#   - type: doi
+#     value: "10.17605/OSF.IO/XXXXX"   # fill in after the OSF registration is public
+#   - type: doi
+#     value: "10.5281/zenodo.XXXXXXX"  # fill in after the Zenodo release

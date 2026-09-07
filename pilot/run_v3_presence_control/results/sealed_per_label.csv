@@ -1,0 +1,13 @@
+label,prevalence_sealed,n_pos,PR_AUC,lift,ROC_AUC,mean_conf_pos,mean_conf_neg
+O_demethylation,0.192,145,0.637,3.32,0.913,0.812,0.173
+aldehyde_oxidation,0.091,69,0.648,7.1,0.973,0.937,0.114
+aromatic_hydroxylation,0.225,170,0.459,2.04,0.805,0.573,0.334
+decarboxylation,0.0,0,,,,,0.014
+deglycosylation,0.0,0,,,,,0.017
+desulfation,0.074,56,0.396,5.35,0.935,0.524,0.081
+ester_hydrolysis,0.093,70,0.635,6.86,0.97,0.953,0.066
+methylation,0.017,13,0.105,6.09,0.926,0.719,0.104
+reduction,0.011,8,0.102,9.66,0.913,0.444,0.07
+ring_cleavage,0.063,48,0.314,4.95,0.925,0.777,0.152
+side_chain_cleavage,0.099,75,0.327,3.3,0.89,0.715,0.203
+none,0.435,329,0.814,1.87,0.831,0.618,0.306

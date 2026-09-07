@@ -1,0 +1,10 @@
+# Exact versions of the registered run (2026-09-07). Python 3.11.15.
+scikit-learn==1.8.0
+pandas==3.0.2
+numpy==2.4.4
+matplotlib==3.10.9
+# rdkit is required ONLY to regenerate the substructure tables from SMILES
+# (framework/vocabulary/make_count_features.py). The evaluation pipeline runs
+# without it, reading the shipped feature table, which is how the registered
+# run was produced.
+rdkit==2026.03.6

@@ -1,0 +1,2 @@
+compound_id,strain_id,reaction,label,weight,source,ref,precursor_mz,delta_mz,msms_match_score,annotation_tool,confidence_level,conversion_pct
+C04,S08,O_demethylation,1,5.0,lcms_suspect,,179.03498,-14.01565,,suspect_screening,2,60.0

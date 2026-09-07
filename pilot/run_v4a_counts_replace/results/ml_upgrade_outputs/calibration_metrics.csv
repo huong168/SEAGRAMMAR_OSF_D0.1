@@ -1,0 +1,13 @@
+label,support,brier_raw,brier_calibrated,improvement
+O_demethylation,470,0.0665,0.058,0.0085
+aldehyde_oxidation,278,0.0362,0.0362,0.0
+aromatic_hydroxylation,1369,0.2132,0.1811,0.0321
+decarboxylation,85,0.0507,0.0483,0.0024
+deglycosylation,94,0.0191,0.0191,0.0
+desulfation,114,0.0016,0.0016,0.0
+ester_hydrolysis,280,0.0448,0.0406,0.0041
+methylation,72,0.091,0.0144,0.0766
+reduction,38,0.0383,0.0261,0.0122
+ring_cleavage,387,0.1121,0.0699,0.0422
+side_chain_cleavage,445,0.1037,0.0891,0.0146
+none,2091,0.2071,0.2072,-0.0001

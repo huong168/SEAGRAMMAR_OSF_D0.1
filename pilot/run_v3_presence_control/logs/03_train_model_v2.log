@@ -1,0 +1,27 @@
+[pilot-patch] dropped absent features: ['pyrogallol']
+  O_demethylation          n= 470  F1=0.671  PR-AUC=0.662
+  aldehyde_oxidation       n= 278  F1=0.681  PR-AUC=0.659
+  aromatic_hydroxylation   n=1369  F1=0.558  PR-AUC=0.413
+  decarboxylation          n=  85  F1=0.268  PR-AUC=0.278
+  deglycosylation          n=  94  F1=0.441  PR-AUC=0.585
+  desulfation              n= 114  F1=0.282  PR-AUC=0.267
+  ester_hydrolysis         n= 280  F1=0.749  PR-AUC=0.674
+  methylation              n=  72  F1=0.169  PR-AUC=0.090
+  reduction                n=  38  F1=0.091  PR-AUC=0.052
+  ring_cleavage            n= 387  F1=0.414  PR-AUC=0.403
+  side_chain_cleavage      n= 445  F1=0.498  PR-AUC=0.347
+                 label  support  n_compounds  f1_group  pr_auc_group  roc_auc_group  precision_group  recall_group
+       O_demethylation      470           10     0.671         0.662          0.958            0.505         1.000
+    aldehyde_oxidation      278            4     0.681         0.659          0.983            0.641         0.727
+aromatic_hydroxylation     1369           33     0.558         0.413          0.690            0.397         0.934
+       decarboxylation       85            5     0.268         0.278          0.951            0.157         0.929
+       deglycosylation       94            3     0.441         0.585          0.986            0.328         0.670
+           desulfation      114            4     0.282         0.267          0.955            0.192         0.526
+      ester_hydrolysis      280            4     0.749         0.674          0.983            0.598         1.000
+           methylation       72           13     0.169         0.090          0.922            0.092         1.000
+             reduction       38           12     0.091         0.052          0.841            0.049         0.553
+         ring_cleavage      387           17     0.414         0.403          0.908            0.268         0.904
+   side_chain_cleavage      445           12     0.498         0.347          0.902            0.358         0.816
+
+MACRO: {'macro_f1_group': np.float64(0.438), 'macro_pr_auc_group': np.float64(0.403), 'macro_roc_auc_group': np.float64(0.916), 'n_labels_evaluated': 11}
+Outputs -> /root/osf/run_A/scripts/visualizations/model_v3
