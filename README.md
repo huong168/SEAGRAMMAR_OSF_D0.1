@@ -99,3 +99,4 @@ Code is additionally archived with its own DOI via Zenodo from the project's Git
 identifiers are listed in `CITATION.cff` once minted. LC-HRMS/MS acquisition and annotation settings
 are **not** part of this registration: they are fixed at M2 and filed then as a registered update,
 with the rule schema and the sealed identities unchanged from this DOI.
+# SEAGRAMMAR_OSF_D0.1
